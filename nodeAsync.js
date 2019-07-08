@@ -5,7 +5,7 @@ var task_arr = [{name:'task_1', delay:500},{name:'task_2', delay:300},{name:'tas
 
   
 //////////////////////////
-/// /* async.each will execute the task in task array concurrently. */
+////* async.each will execute the task in task array concurrently. */
 
 // async.each(task_arr, function(task, callback){
 
@@ -29,7 +29,7 @@ var task_arr = [{name:'task_1', delay:500},{name:'task_2', delay:300},{name:'tas
 //     });
 
 //////////////////////////
-///* async.eachSeries Execute every task in task array by order (one by one).
+////* async.eachSeries Execute every task in task array by order (one by one).
 
 // async.eachSeries(task_arr, function(task, callback){
 
@@ -47,7 +47,8 @@ var task_arr = [{name:'task_1', delay:500},{name:'task_2', delay:300},{name:'tas
 
 
 //////////////////////////
-///* async.waterfall 
+////* async.waterfall
+ 
 // async.waterfall([
 //     function(callback) {
 //         // 1 will be passed to second function as first parameter. 
@@ -71,7 +72,7 @@ var task_arr = [{name:'task_1', delay:500},{name:'task_2', delay:300},{name:'tas
 // }); 
 
 //////////////////////////
-///* async.parallel
+////* async.parallel
  
 // async.parallel([
 //     function(callback) {

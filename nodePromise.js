@@ -1,5 +1,5 @@
 ///// https://scotch.io/courses/10-need-to-know-javascript-concepts/callbacks-promises-and-async
-const weather = true
+const weather = false
 
 
 ////// If weather is true, resolve the promise returning the data dateDetails, else return an error object with data Bad weather, so no Date.
@@ -11,22 +11,22 @@ const date    = new Promise(function(resolve, reject) {
       table:    5
     };
 
-    resolve(dateDetails)
+    console.log(dateDetails)
   } else {
     reject(new Error('Bad weather, so no Date'))
   }
 });
 
 
-const myDate = function() {
-  date
-  .then(function(done) {
-      console.log('We are going on a date!')
-      console.log(done)
-    })
-    .catch(function(error) {
-        console.log(error.message)
-    })
-}
+// const myDate = function() {
+//   date
+//   .then(function(done) {
+//       console.log('We are going on a date!')
+//       console.log(done)
+//     })
+//     .catch(function(error) {
+//         console.log(error.message)
+//     })
+// }
 
-myDate();
+// myDate();
