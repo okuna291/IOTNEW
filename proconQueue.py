@@ -9,7 +9,7 @@ from Queue import Queue
 #########################
 ### Queue
 
-queue = Queue(10)
+queue = Queue(0)
 
 class ProducerThread(Thread):
     def run(self):

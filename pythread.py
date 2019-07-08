@@ -7,6 +7,8 @@ import urllib2
 import urllib
 from threading import Thread
 
+
+
 ###########################
 ###The simplest way to use a Thread is to instantiate it with a target function and call start() to let it begin working.
 
@@ -192,6 +194,7 @@ from threading import Thread
 
 # def non_daemon():
 #     logging.debug('Starting non daemon')
+#     time.sleep(4)
 #     logging.debug('Exiting non daemon')
 
 # t = threading.Thread(name='non-daemon', target=non_daemon)
