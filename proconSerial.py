@@ -13,6 +13,9 @@ serQ=Queue(20)
 
 
 
+
+
+
 ##
 def SerRead():
 	global serQ
