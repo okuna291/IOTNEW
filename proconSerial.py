@@ -13,17 +13,6 @@ serQ=Queue(20)
 
 
 
-try:
-	while True :
-		ser = serial.Serial('/dev/ttyACM0', 9600)
-		response = ser.readline()
-		print response
-except KeyboardInterrupt:
-	ser.close()
-
-
-
-
 ##
 def SerRead():
 	global serQ
