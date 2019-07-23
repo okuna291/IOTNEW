@@ -1,8 +1,8 @@
 var fs = require("fs");
 /////READING
-// fs.readFile("temp.txt", function(err, buf) {
-//   console.log(buf.toString());
-// });
+fs.readFile("temp.txt", function(err, buf) {
+  console.log(buf.toString());
+});
 
 //////Handling Errors
 // fs.readFile("not-found.txt", "utf-8", (err, data) => {
